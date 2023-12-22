@@ -1,5 +1,3 @@
-# Updated code to include real API calls (placeholders)
-# You'll need to run this code on your machine to test it.
 
 import requests
 import openai  # You'll need to install this package
@@ -79,7 +77,7 @@ def generate_dalle_image(prompt):
     
     return image_url
 
-# Function to set the desktop wallpaper (placeholder)
+# Function to set the desktop wallpaper
 def set_desktop_wallpaper(image_url):
     # Download the image
     image_path = r"C:\Users\ebevi\Pictures\AIwallpapers\wallpaper.png"
